@@ -38,35 +38,88 @@ const Index = () => {
         <div className="absolute inset-0 bg-grid-pattern opacity-30"></div>
         <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-melixer-darker to-transparent z-10"></div>
         
-        <div className="text-center max-w-3xl mx-auto z-20 px-4">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-grotesk font-bold mb-6 text-glow">
-            <span className="block">You're</span>
-            <span className="text-gradient animate-gradient-shift bg-[length:200%]">Early.</span>
-          </h1>
-          
-          <p className="text-lg md:text-xl mb-8 text-melixer-light/80 max-w-2xl mx-auto">
-            Melixer is the platform that connects founders with <span className="text-melixer-purple font-semibold">exceptional talent</span>.
-            Join our beta to reshape how startups build teams.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-gradient hover:opacity-90"
-              onClick={() => document.getElementById('beta-signup-form')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Apply to Beta <ChevronRight className="ml-1 h-4 w-4" />
-            </Button>
+        <div className="grid md:grid-cols-2 gap-12 items-center z-20 px-4 max-w-7xl w-full">
+          <div className="text-center md:text-left animate-on-scroll opacity-0">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-grotesk font-bold mb-6 text-glow">
+              <span className="block">You're</span>
+              <span className="text-gradient animate-gradient-shift bg-[length:200%]">Early.</span>
+            </h1>
             
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-white/20 hover:bg-white/5"
-              onClick={() => document.getElementById('what')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Learn More <ChevronDown className="ml-1 h-4 w-4" />
-            </Button>
+            <p className="text-lg md:text-xl mb-8 text-melixer-light/80 max-w-2xl mx-auto md:mx-0">
+              Melixer is the platform that connects founders with <span className="text-melixer-purple font-semibold">exceptional talent</span>.
+              Join our beta to reshape how startups build teams.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <Button 
+                size="lg" 
+                className="bg-gradient hover:opacity-90"
+                onClick={() => document.getElementById('beta-signup-form')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Apply to Beta <ChevronRight className="ml-1 h-4 w-4" />
+              </Button>
+              
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="border-white/20 hover:bg-white/5"
+                onClick={() => document.getElementById('what')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Learn More <ChevronDown className="ml-1 h-4 w-4" />
+              </Button>
+            </div>
           </div>
+          
+          <Card className="bg-gradient p-0.5 rounded-lg animate-on-scroll opacity-0 md:ml-auto">
+            <div className="bg-melixer-darker rounded-[calc(0.5rem-1px)] p-8">
+              <h2 className="text-2xl font-grotesk font-bold mb-6">Beta Release</h2>
+              
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="bg-melixer-purple/20 p-1 rounded-full">
+                    <Check className="h-4 w-4 text-melixer-purple" />
+                  </div>
+                  <p className="text-melixer-light/80">Limited to 100 founders</p>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <div className="bg-melixer-purple/20 p-1 rounded-full">
+                    <Check className="h-4 w-4 text-melixer-purple" />
+                  </div>
+                  <p className="text-melixer-light/80">500 curated contributors</p>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <div className="bg-melixer-purple/20 p-1 rounded-full">
+                    <Check className="h-4 w-4 text-melixer-purple" />
+                  </div>
+                  <p className="text-melixer-light/80">Access to private WhatsApp group</p>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <div className="bg-melixer-purple/20 p-1 rounded-full">
+                    <Check className="h-4 w-4 text-melixer-purple" />
+                  </div>
+                  <p className="text-melixer-light/80">Early platform features</p>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <div className="bg-melixer-purple/20 p-1 rounded-full">
+                    <Check className="h-4 w-4 text-melixer-purple" />
+                  </div>
+                  <p className="text-melixer-light/80">Lifetime legacy perks</p>
+                </div>
+                
+                <Button 
+                  size="lg" 
+                  className="bg-gradient hover:opacity-90 w-full mt-4"
+                  onClick={() => document.getElementById('beta-signup-form')?.scrollIntoView({ behavior: 'smooth' })}
+                >
+                  Apply Now <ChevronRight className="ml-1 h-4 w-4" />
+                </Button>
+              </div>
+            </div>
+          </Card>
         </div>
       </Section>
       
