@@ -187,16 +187,16 @@ const Index = () => {
           description="Post your tasks, attract the right contributors, and find potential co-founders who share your vision and complement your skills."
           features={[
             {
-              title: "Attract Contributors",
-              description: "From Day 1, connect with talented contributors ready to help build your vision."
+              title: "Build Without Quitting Your Job",
+              description: "Melixer is async, flexible, and progress-first."
             },
             {
-              title: "Validate Your Idea",
-              description: "Build in public and get real-world feedback on your concept as it develops."
+              title: "Iterate in Public",
+              description: "Get feedback, attention, and community support while building."
             },
             {
-              title: "Instant Contributions",
-              description: "No long interviews, just see contributors' skills in action through real tasks."
+              title: "No Hiring, No Gatekeeping",
+              description: "Just contributors doing what they do best: building."
             }
           ]}
           className="animate-on-scroll opacity-0"
@@ -210,16 +210,16 @@ const Index = () => {
           description="Work your way into founding teams by demonstrating your skills on real projects. Build trust through delivery and join the core team."
           features={[
             {
-              title: "Join Real Startup Teams",
-              description: "Get involved with actual startups from Day 1 and make meaningful contributions."
+              title: "Jump Across Projects",
+              description: "Discover your true passion and strengths through diverse startup experiences."
             },
             {
-              title: "Earn Your Spot",
-              description: "Build trust and impact to secure your position as a core team member with equity potential."
+              title: "Optional Equity or Rev Share",
+              description: "For proven contributors — unlock as you grow with the startups you help build."
             },
             {
-              title: "Build a Track Record",
-              description: "Create a public portfolio of startup experience that showcases your real-world impact."
+              title: "No Interviews",
+              description: "Contribute directly. Earn your seat at the table through your work."
             }
           ]}
           layout="3col"
@@ -239,29 +239,29 @@ const Index = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <StepCard 
             number={1} 
-            title="Founders Post Ideas + Tasks" 
-            description="Founders break down their vision into actionable tasks that contributors can work on."
+            title="Founders Post Ideas & Tasks" 
+            description="Share your startup vision and break it down into real, actionable tasks. Others can pick them up and start contributing."
             className="animate-on-scroll opacity-0"
           />
           
           <StepCard 
             number={2} 
-            title="Contributors Pick Up Tasks" 
-            description="Talented individuals select tasks that match their skills and interests."
+            title="Contributors Start Building" 
+            description="Designers, developers, and marketers choose tasks that match their skills and interests."
             className="animate-on-scroll opacity-0"
           />
           
           <StepCard 
             number={3} 
-            title="Reputation Builds → Relationships Form" 
-            description="Through consistent quality work, contributors build trust and form stronger connections."
+            title="Teams Form Organically" 
+            description="No forced hiring. Just real collaboration that grows into long-term partnerships."
             className="animate-on-scroll opacity-0"
           />
           
           <StepCard 
             number={4} 
-            title="Teams Evolve Naturally" 
-            description="Successful collaborations naturally evolve into formal roles: hire, core team, or co-founder."
+            title="Startups Launch, Together" 
+            description="Turn ideas into products, get paid, gain equity, and build your portfolio from day one."
             className="animate-on-scroll opacity-0"
           />
         </div>
