@@ -187,16 +187,16 @@ const Index = () => {
           description="Post your tasks, attract the right contributors, and find potential co-founders who share your vision and complement your skills."
           features={[
             {
-              title: "Post Tasks",
-              description: "Break down your project into specific tasks and find the right talent for each component."
-            },
-            {
               title: "Attract Contributors",
-              description: "Build a team gradually by working with contributors on small projects first."
+              description: "From Day 1, connect with talented contributors ready to help build your vision."
             },
             {
-              title: "Find Co-Founders",
-              description: "Identify potential co-founders based on collaboration and demonstrated skills."
+              title: "Validate Your Idea",
+              description: "Build in public and get real-world feedback on your concept as it develops."
+            },
+            {
+              title: "Instant Contributions",
+              description: "No long interviews, just see contributors' skills in action through real tasks."
             }
           ]}
           className="animate-on-scroll opacity-0"
@@ -206,20 +206,20 @@ const Index = () => {
       {/* For Contributors */}
       <Section id="contributors" className="bg-melixer-dark">
         <FeatureColumns
-          title="For Contributors"
+          title="Don't Wait to Get Hired. Build Your Way In."
           description="Work your way into founding teams by demonstrating your skills on real projects. Build trust through delivery and join the core team."
           features={[
             {
-              title: "Showcase Skills",
-              description: "Apply your expertise to real projects and build a portfolio of meaningful work."
+              title: "Join Real Startup Teams",
+              description: "Get involved with actual startups from Day 1 and make meaningful contributions."
             },
             {
-              title: "Earn Trust",
-              description: "Demonstrate reliability and quality to build relationships with founders."
+              title: "Earn Your Spot",
+              description: "Build trust and impact to secure your position as a core team member with equity potential."
             },
             {
-              title: "Join Core Teams",
-              description: "Turn successful collaborations into equity positions and co-founder opportunities."
+              title: "Build a Track Record",
+              description: "Create a public portfolio of startup experience that showcases your real-world impact."
             }
           ]}
           layout="3col"
@@ -239,29 +239,29 @@ const Index = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <StepCard 
             number={1} 
-            title="Create Profile" 
-            description="Founders list their ideas and needs. Contributors showcase their skills and experience."
+            title="Founders Post Ideas + Tasks" 
+            description="Founders break down their vision into actionable tasks that contributors can work on."
             className="animate-on-scroll opacity-0"
           />
           
           <StepCard 
             number={2} 
-            title="Match & Connect" 
-            description="Our platform suggests relevant matches based on skills, interests, and project needs."
+            title="Contributors Pick Up Tasks" 
+            description="Talented individuals select tasks that match their skills and interests."
             className="animate-on-scroll opacity-0"
           />
           
           <StepCard 
             number={3} 
-            title="Collaborate" 
-            description="Work on small projects together first to test compatibility and build trust."
+            title="Reputation Builds → Relationships Form" 
+            description="Through consistent quality work, contributors build trust and form stronger connections."
             className="animate-on-scroll opacity-0"
           />
           
           <StepCard 
             number={4} 
-            title="Form Teams" 
-            description="Successful collaborations evolve into core teams with equity arrangements."
+            title="Teams Evolve Naturally" 
+            description="Successful collaborations naturally evolve into formal roles: hire, core team, or co-founder."
             className="animate-on-scroll opacity-0"
           />
         </div>
